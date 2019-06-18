@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": ["GBG", " G "],
+  "key": {
+    "G": {
+      "type": "forge:ore_dict",
+      "ore" : "blockGlass"
+    },
+    "B": {
+      "item" : "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "holdyerbreath:empty_air_bottle"
+  }
+}

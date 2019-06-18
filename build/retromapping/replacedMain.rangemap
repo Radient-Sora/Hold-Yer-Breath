@@ -1,0 +1,582 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "sora\holdyerbreath\HoldYerBreath.java" md5: 92d47d3cb5e102fa5bc4a27f95ffac74
+Cache Hit!
+@|sora\holdyerbreath\HoldYerBreath.java|8|26|sora.holdyerbreath|package|sora.holdyerbreath|(file)
+Class Start: sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|500|503|Mod|class|net.minecraftforge.fml.common.Mod
+   @|sora\holdyerbreath\HoldYerBreath.java|504|509|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|sora\holdyerbreath\HoldYerBreath.java|512|525|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|526|531|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+   @|sora\holdyerbreath\HoldYerBreath.java|534|538|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|sora\holdyerbreath\HoldYerBreath.java|541|554|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|555|562|MODNAME|field|sora.holdyerbreath.HoldYerBreath|MODNAME
+   @|sora\holdyerbreath\HoldYerBreath.java|577|590|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|616|622|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|616|622|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|623|628|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID|
+   @|sora\holdyerbreath\HoldYerBreath.java|670|676|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|670|676|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|677|684|MODNAME|field|sora.holdyerbreath.HoldYerBreath|MODNAME|
+   @|sora\holdyerbreath\HoldYerBreath.java|728|734|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|728|734|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|735|746|CLIENTPROXY|field|sora.holdyerbreath.HoldYerBreath|CLIENTPROXY|
+   @|sora\holdyerbreath\HoldYerBreath.java|811|817|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|811|817|String|class|java.lang.String
+   @|sora\holdyerbreath\HoldYerBreath.java|818|829|COMMONPROXY|field|sora.holdyerbreath.HoldYerBreath|COMMONPROXY|
+   @|sora\holdyerbreath\HoldYerBreath.java|905|918|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|876|888|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|sora\holdyerbreath\HoldYerBreath.java|905|918|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|919|927|INSTANCE|field|sora.holdyerbreath.HoldYerBreath|INSTANCE|
+   @|sora\holdyerbreath\HoldYerBreath.java|1040|1051|CommonProxy|class|sora.holdyerbreath.proxy.CommonProxy
+   @|sora\holdyerbreath\HoldYerBreath.java|933|943|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|sora\holdyerbreath\HoldYerBreath.java|944|954|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|sora\holdyerbreath\HoldYerBreath.java|957|970|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|971|982|CLIENTPROXY|field|sora.holdyerbreath.HoldYerBreath|CLIENTPROXY
+   @|sora\holdyerbreath\HoldYerBreath.java|984|994|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|sora\holdyerbreath\HoldYerBreath.java|997|1010|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|1011|1022|COMMONPROXY|field|sora.holdyerbreath.HoldYerBreath|COMMONPROXY
+   @|sora\holdyerbreath\HoldYerBreath.java|1040|1051|CommonProxy|class|sora.holdyerbreath.proxy.CommonProxy
+   @|sora\holdyerbreath\HoldYerBreath.java|1052|1057|proxy|field|sora.holdyerbreath.HoldYerBreath|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1115|1120|event|param|sora.holdyerbreath.HoldYerBreath|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\HoldYerBreath.java|1081|1088|preInit|method|sora.holdyerbreath.HoldYerBreath|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1089|1114|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|sora\holdyerbreath\HoldYerBreath.java|1128|1133|proxy|field|sora.holdyerbreath.HoldYerBreath|proxy
+      @|sora\holdyerbreath\HoldYerBreath.java|1134|1141|preInit|method|sora.holdyerbreath.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1142|1147|event|param|sora.holdyerbreath.HoldYerBreath|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1204|1209|event|param|sora.holdyerbreath.HoldYerBreath|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\HoldYerBreath.java|1176|1180|Init|method|sora.holdyerbreath.HoldYerBreath|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1181|1203|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|sora\holdyerbreath\HoldYerBreath.java|1217|1222|proxy|field|sora.holdyerbreath.HoldYerBreath|proxy
+      @|sora\holdyerbreath\HoldYerBreath.java|1223|1227|Init|method|sora.holdyerbreath.proxy.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1228|1233|event|param|sora.holdyerbreath.HoldYerBreath|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1298|1303|event|param|sora.holdyerbreath.HoldYerBreath|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\HoldYerBreath.java|1262|1270|postInit|method|sora.holdyerbreath.HoldYerBreath|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1271|1297|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|sora\holdyerbreath\HoldYerBreath.java|1311|1316|proxy|field|sora.holdyerbreath.HoldYerBreath|proxy
+      @|sora\holdyerbreath\HoldYerBreath.java|1317|1325|postInit|method|sora.holdyerbreath.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\HoldYerBreath.java|1326|1331|event|param|sora.holdyerbreath.HoldYerBreath|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   @|sora\holdyerbreath\HoldYerBreath.java|1361|1373|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|sora\holdyerbreath\HoldYerBreath.java|1361|1373|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|sora\holdyerbreath\HoldYerBreath.java|1374|1387|CREATIVE_TABS|field|sora.holdyerbreath.HoldYerBreath|CREATIVE_TABS|
+   @|sora\holdyerbreath\HoldYerBreath.java|1394|1406|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|sora\holdyerbreath\HoldYerBreath.java|1407|1420|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\HoldYerBreath.java|1421|1426|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+   Anon Class Start: sora.holdyerbreath.HoldYerBreath$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         @|sora\holdyerbreath\HoldYerBreath.java|1435|1443|Override|class|java.lang.Override
+         @|sora\holdyerbreath\HoldYerBreath.java|1455|1464|ItemStack|class|net.minecraft.item.ItemStack
+         @|sora\holdyerbreath\HoldYerBreath.java|1465|1479|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|sora\holdyerbreath\HoldYerBreath.java|1501|1510|ItemStack|class|net.minecraft.item.ItemStack
+         @|sora\holdyerbreath\HoldYerBreath.java|1511|1519|ModItems|class|sora.holdyerbreath.init.ModItems
+         @|sora\holdyerbreath\HoldYerBreath.java|1520|1530|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE
+      Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Anon Class End: sora.holdyerbreath.HoldYerBreath$1
+Class End  : sora.holdyerbreath.HoldYerBreath
+endProcessing "sora\holdyerbreath\HoldYerBreath.java"
+
+startProcessing "sora\holdyerbreath\init\ConfigHandler.java" md5: afa101f4cc617f65ebdb670f8b3eefe1
+Cache Hit!
+@|sora\holdyerbreath\init\ConfigHandler.java|8|31|sora.holdyerbreath.init|package|sora.holdyerbreath.init|(file)
+Class Start: sora.holdyerbreath.init.ConfigHandler
+   @|sora\holdyerbreath\init\ConfigHandler.java|351|357|Config|class|net.minecraftforge.common.config.Config
+   @|sora\holdyerbreath\init\ConfigHandler.java|358|363|modid|method|net.minecraftforge.common.config.Config|modid|()Ljava/lang/String;
+   @|sora\holdyerbreath\init\ConfigHandler.java|366|379|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\init\ConfigHandler.java|380|385|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+   @|sora\holdyerbreath\init\ConfigHandler.java|400|413|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+   @|sora\holdyerbreath\init\ConfigHandler.java|471|489|BetterDivingConfig|class|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+   @|sora\holdyerbreath\init\ConfigHandler.java|420|431|Config.Name|class|net.minecraftforge.common.config.Config.Name
+   @|sora\holdyerbreath\init\ConfigHandler.java|471|489|BetterDivingConfig|class|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+   @|sora\holdyerbreath\init\ConfigHandler.java|490|502|betterDiving|field|sora.holdyerbreath.init.ConfigHandler|betterDiving|
+   @|sora\holdyerbreath\init\ConfigHandler.java|509|527|BetterDivingConfig|class|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+   @|sora\holdyerbreath\init\ConfigHandler.java|535|550|Config.RangeInt|class|net.minecraftforge.common.config.Config.RangeInt
+   @|sora\holdyerbreath\init\ConfigHandler.java|551|554|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+   @|sora\holdyerbreath\init\ConfigHandler.java|560|563|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+   @|sora\holdyerbreath\init\ConfigHandler.java|573|587|Config.Comment|class|net.minecraftforge.common.config.Config.Comment
+   @|sora\holdyerbreath\init\ConfigHandler.java|628|640|maxStackSize|field|sora.holdyerbreath.init.ConfigHandler|maxStackSize|
+   @|sora\holdyerbreath\init\ConfigHandler.java|651|665|Config.Comment|class|net.minecraftforge.common.config.Config.Comment
+   @|sora\holdyerbreath\init\ConfigHandler.java|731|743|usesBottleUp|field|sora.holdyerbreath.init.ConfigHandler|usesBottleUp|
+   @|sora\holdyerbreath\init\ConfigHandler.java|757|772|Config.RangeInt|class|net.minecraftforge.common.config.Config.RangeInt
+   @|sora\holdyerbreath\init\ConfigHandler.java|773|776|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+   @|sora\holdyerbreath\init\ConfigHandler.java|782|785|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+   @|sora\holdyerbreath\init\ConfigHandler.java|795|809|Config.Comment|class|net.minecraftforge.common.config.Config.Comment
+   @|sora\holdyerbreath\init\ConfigHandler.java|880|898|restoredAirBubbles|field|sora.holdyerbreath.init.ConfigHandler|restoredAirBubbles|
+   Class Start: sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+      @|sora\holdyerbreath\init\ConfigHandler.java|927|945|BetterDivingConfig|class|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+      @|sora\holdyerbreath\init\ConfigHandler.java|952|966|Config.Comment|class|net.minecraftforge.common.config.Config.Comment
+      @|sora\holdyerbreath\init\ConfigHandler.java|1022|1050|allowBetterDivingIntegration|field|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig|allowBetterDivingIntegration|
+      @|sora\holdyerbreath\init\ConfigHandler.java|1065|1080|Config.RangeInt|class|net.minecraftforge.common.config.Config.RangeInt
+      @|sora\holdyerbreath\init\ConfigHandler.java|1081|1084|min|method|net.minecraftforge.common.config.Config.RangeInt|min|()I
+      @|sora\holdyerbreath\init\ConfigHandler.java|1090|1093|max|method|net.minecraftforge.common.config.Config.RangeInt|max|()I
+      @|sora\holdyerbreath\init\ConfigHandler.java|1106|1120|Config.Comment|class|net.minecraftforge.common.config.Config.Comment
+      @|sora\holdyerbreath\init\ConfigHandler.java|1169|1194|betterDivingAirPercentage|field|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig|betterDivingAirPercentage|
+   Class End  : sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig
+   Class Start: sora.holdyerbreath.init.ConfigHandler.ReloadConfig
+      @|sora\holdyerbreath\init\ConfigHandler.java|1211|1233|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|sora\holdyerbreath\init\ConfigHandler.java|1234|1239|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|sora\holdyerbreath\init\ConfigHandler.java|1242|1255|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+      @|sora\holdyerbreath\init\ConfigHandler.java|1256|1261|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+      @|sora\holdyerbreath\init\ConfigHandler.java|1285|1297|ReloadConfig|class|sora.holdyerbreath.init.ConfigHandler.ReloadConfig
+      Method Start: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+         @|sora\holdyerbreath\init\ConfigHandler.java|1377|1382|event|param|sora.holdyerbreath.init.ConfigHandler.ReloadConfig|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|event|0
+         @|sora\holdyerbreath\init\ConfigHandler.java|1304|1318|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|sora\holdyerbreath\init\ConfigHandler.java|1342|1357|onConfigChanged|method|sora.holdyerbreath.init.ConfigHandler.ReloadConfig|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+         @|sora\holdyerbreath\init\ConfigHandler.java|1358|1376|ConfigChangedEvent|class|net.minecraftforge.fml.client.event.ConfigChangedEvent
+         @|sora\holdyerbreath\init\ConfigHandler.java|1394|1399|event|param|sora.holdyerbreath.init.ConfigHandler.ReloadConfig|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|event|0
+         @|sora\holdyerbreath\init\ConfigHandler.java|1400|1408|getModID|method|net.minecraftforge.fml.client.event.ConfigChangedEvent|getModID|()Ljava/lang/String;
+         @|sora\holdyerbreath\init\ConfigHandler.java|1411|1417|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+         @|sora\holdyerbreath\init\ConfigHandler.java|1418|1431|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+         @|sora\holdyerbreath\init\ConfigHandler.java|1432|1437|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+         @|sora\holdyerbreath\init\ConfigHandler.java|1449|1462|ConfigManager|class|net.minecraftforge.common.config.ConfigManager
+         @|sora\holdyerbreath\init\ConfigHandler.java|1463|1467|sync|method|net.minecraftforge.common.config.ConfigManager|sync|(Ljava/lang/String;Lnet/minecraftforge/common/config/Config$Type;)V
+         @|sora\holdyerbreath\init\ConfigHandler.java|1468|1481|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+         @|sora\holdyerbreath\init\ConfigHandler.java|1482|1487|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+         @|sora\holdyerbreath\init\ConfigHandler.java|1489|1500|Config.Type|class|net.minecraftforge.common.config.Config.Type
+         @|sora\holdyerbreath\init\ConfigHandler.java|1501|1509|INSTANCE|field|net.minecraftforge.common.config.Config.Type|INSTANCE
+      Method End: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+   Class End  : sora.holdyerbreath.init.ConfigHandler.ReloadConfig
+Class End  : sora.holdyerbreath.init.ConfigHandler
+endProcessing "sora\holdyerbreath\init\ConfigHandler.java"
+
+startProcessing "sora\holdyerbreath\init\ModItems.java" md5: 05ef83f87efbee6e0946f6f5e0884b54
+Cache Hit!
+@|sora\holdyerbreath\init\ModItems.java|8|31|sora.holdyerbreath.init|package|sora.holdyerbreath.init|(file)
+Class Start: sora.holdyerbreath.init.ModItems
+   @|sora\holdyerbreath\init\ModItems.java|179|187|ModItems|class|sora.holdyerbreath.init.ModItems
+   @|sora\holdyerbreath\init\ModItems.java|207|211|Item|class|net.minecraft.item.Item
+   @|sora\holdyerbreath\init\ModItems.java|207|211|Item|class|net.minecraft.item.Item
+   @|sora\holdyerbreath\init\ModItems.java|212|222|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE|
+   @|sora\holdyerbreath\init\ModItems.java|229|242|ItemAirBottle|class|sora.holdyerbreath.items.ItemAirBottle
+   @|sora\holdyerbreath\init\ModItems.java|274|278|Item|class|net.minecraft.item.Item
+   @|sora\holdyerbreath\init\ModItems.java|274|278|Item|class|net.minecraft.item.Item
+   @|sora\holdyerbreath\init\ModItems.java|279|295|EMPTY_AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|EMPTY_AIR_BOTTLE|
+   @|sora\holdyerbreath\init\ModItems.java|302|320|ItemEmptyAirBottle|class|sora.holdyerbreath.items.ItemEmptyAirBottle
+Class End  : sora.holdyerbreath.init.ModItems
+endProcessing "sora\holdyerbreath\init\ModItems.java"
+
+startProcessing "sora\holdyerbreath\init\RegistryHandler.java" md5: 6083eded956f14b816b0edebe5456cc0
+Cache Hit!
+@|sora\holdyerbreath\init\RegistryHandler.java|8|31|sora.holdyerbreath.init|package|sora.holdyerbreath.init|(file)
+Class Start: sora.holdyerbreath.init.RegistryHandler
+   @|sora\holdyerbreath\init\RegistryHandler.java|264|286|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|sora\holdyerbreath\init\RegistryHandler.java|287|292|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|sora\holdyerbreath\init\RegistryHandler.java|295|308|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\init\RegistryHandler.java|309|314|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+   @|sora\holdyerbreath\init\RegistryHandler.java|329|344|RegistryHandler|class|sora.holdyerbreath.init.RegistryHandler
+   Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|sora\holdyerbreath\init\RegistryHandler.java|430|435|event|param|sora.holdyerbreath.init.RegistryHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|sora\holdyerbreath\init\RegistryHandler.java|351|365|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|sora\holdyerbreath\init\RegistryHandler.java|387|400|registerItems|method|sora.holdyerbreath.init.RegistryHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|sora\holdyerbreath\init\RegistryHandler.java|401|423|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|sora\holdyerbreath\init\RegistryHandler.java|424|428|Item|class|net.minecraft.item.Item
+      @|sora\holdyerbreath\init\RegistryHandler.java|442|447|event|param|sora.holdyerbreath.init.RegistryHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|sora\holdyerbreath\init\RegistryHandler.java|448|459|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|sora\holdyerbreath\init\RegistryHandler.java|462|470|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|sora\holdyerbreath\init\RegistryHandler.java|471|479|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\init\RegistryHandler.java|480|490|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE
+      @|sora\holdyerbreath\init\RegistryHandler.java|497|502|event|param|sora.holdyerbreath.init.RegistryHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|sora\holdyerbreath\init\RegistryHandler.java|503|514|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|sora\holdyerbreath\init\RegistryHandler.java|517|525|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|sora\holdyerbreath\init\RegistryHandler.java|526|534|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\init\RegistryHandler.java|535|551|EMPTY_AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|EMPTY_AIR_BOTTLE
+   Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+Class End  : sora.holdyerbreath.init.RegistryHandler
+endProcessing "sora\holdyerbreath\init\RegistryHandler.java"
+
+startProcessing "sora\holdyerbreath\integration\BetterDiving.java" md5: 2db1158e2004ccbd6e875a930be87db9
+Cache Hit!
+@|sora\holdyerbreath\integration\BetterDiving.java|8|38|sora.holdyerbreath.integration|package|sora.holdyerbreath.integration|(file)
+Class Start: sora.holdyerbreath.integration.BetterDiving
+   @|sora\holdyerbreath\integration\BetterDiving.java|229|241|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+   Method Start: setCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;I)V
+      @|sora\holdyerbreath\integration\BetterDiving.java|293|299|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|305|314|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
+      @|sora\holdyerbreath\integration\BetterDiving.java|266|279|setCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V
+      @|sora\holdyerbreath\integration\BetterDiving.java|280|292|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|321|338|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|352|358|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|359|372|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|373|397|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|398|404|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|428|441|setCurrentAir|method|meldexun.betterDiving.capability.IDivingAttributes|setCurrentAir|(I)V
+      @|sora\holdyerbreath\integration\BetterDiving.java|442|451|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
+   Method End: setCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;I)V
+   Method Start: getCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|506|512|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|479|492|getCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|493|505|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|519|536|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|550|556|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|557|570|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|571|595|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|596|602|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|631|644|getCurrentAir|method|meldexun.betterDiving.capability.IDivingAttributes|getCurrentAir|()I
+   Method End: getCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;)I
+   Method Start: getMaxAir(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|696|702|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|673|682|getMaxAir|method|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|683|695|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|709|726|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|740|746|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|747|760|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|761|785|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|786|792|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|823|832|getMaxAir|method|meldexun.betterDiving.capability.IDivingAttributes|getMaxAir|()I
+   Method End: getMaxAir(Lnet/minecraft/entity/player/EntityPlayer;)I
+Class End  : sora.holdyerbreath.integration.BetterDiving
+endProcessing "sora\holdyerbreath\integration\BetterDiving.java"
+
+startProcessing "sora\holdyerbreath\items\ItemAirBottle.java" md5: b03f2a87c9e9dd4a26c685367667226f
+@|sora\holdyerbreath\items\ItemAirBottle.java|8|32|sora.holdyerbreath.items|package|sora.holdyerbreath.items|(file)
+Class Start: sora.holdyerbreath.items.ItemAirBottle
+   @|sora\holdyerbreath\items\ItemAirBottle.java|675|688|ItemAirBottle|class|sora.holdyerbreath.items.ItemAirBottle
+   @|sora\holdyerbreath\items\ItemAirBottle.java|697|701|Item|class|net.minecraft.item.Item
+   Method Start: ItemAirBottle(Ljava/lang/String;)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|735|739|name|param|sora.holdyerbreath.items.ItemAirBottle|ItemAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|714|727|ItemAirBottle|method|sora.holdyerbreath.items.ItemAirBottle|ItemAirBottle|(Ljava/lang/String;)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|728|734|String|class|java.lang.String
+      @|sora\holdyerbreath\items\ItemAirBottle.java|765|780|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|785|801|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|sora\holdyerbreath\items\ItemAirBottle.java|802|815|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+      @|sora\holdyerbreath\items\ItemAirBottle.java|816|821|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+      @|sora\holdyerbreath\items\ItemAirBottle.java|823|827|name|param|sora.holdyerbreath.items.ItemAirBottle|ItemAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|840|858|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|859|863|name|param|sora.holdyerbreath.items.ItemAirBottle|ItemAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|875|889|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|890|903|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+      @|sora\holdyerbreath\items\ItemAirBottle.java|904|917|CREATIVE_TABS|field|sora.holdyerbreath.HoldYerBreath|CREATIVE_TABS
+   Method End: ItemAirBottle(Ljava/lang/String;)V
+   Method Start: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|978|983|stack|param|sora.holdyerbreath.items.ItemAirBottle|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|928|936|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemAirBottle.java|950|967|getItemStackLimit|method|net.minecraft.item.Item|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|968|977|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|998|1011|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1012|1024|maxStackSize|field|sora.holdyerbreath.init.ConfigHandler|maxStackSize
+   Method End: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+   Method Start: getItemUseAction(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1090|1095|stack|param|sora.holdyerbreath.items.ItemAirBottle|getItemUseAction|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1034|1042|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1052|1062|EnumAction|class|net.minecraft.item.EnumAction
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1063|1079|getItemUseAction|method|net.minecraft.item.Item|getItemUseAction|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1080|1089|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1110|1120|EnumAction|class|net.minecraft.item.EnumAction
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1121|1126|DRINK|field|net.minecraft.item.EnumAction|DRINK
+   Method End: getItemUseAction(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+   Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1190|1195|stack|param|sora.holdyerbreath.items.ItemAirBottle|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1136|1144|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1158|1179|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1180|1189|ItemStack|class|net.minecraft.item.ItemStack
+   Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1287|1294|worldIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1309|1317|playerIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1328|1334|handIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1222|1230|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1240|1252|ActionResult|class|net.minecraft.util.ActionResult
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1253|1262|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1264|1280|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1281|1286|World|class|net.minecraft.world.World
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1296|1308|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1319|1327|EnumHand|class|net.minecraft.util.EnumHand
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1342|1351|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1360|1368|playerIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1369|1380|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1381|1387|handIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1398|1406|playerIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1407|1425|isInsideOfMaterial|method|net.minecraft.entity.Entity|isInsideOfMaterial|(Lnet/minecraft/block/material/Material;)Z
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1426|1434|Material|class|net.minecraft.block.material.Material
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1435|1440|WATER|field|net.minecraft.block.material.Material|WATER
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1456|1463|worldIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1464|1472|isRemote|field|net.minecraft.world.World|isRemote
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1483|1490|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1504|1512|playerIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1513|1526|setActiveHand|method|net.minecraft.entity.EntityLivingBase|setActiveHand|(Lnet/minecraft/util/EnumHand;)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1527|1533|handIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1561|1573|ActionResult|class|net.minecraft.util.ActionResult
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1574|1583|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1585|1601|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1602|1609|SUCCESS|field|net.minecraft.util.EnumActionResult|SUCCESS
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1649|1661|ActionResult|class|net.minecraft.util.ActionResult
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1664|1680|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1681|1685|FAIL|field|net.minecraft.util.EnumActionResult|FAIL
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: onItemUseFinish(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1763|1768|stack|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1776|1783|worldIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|worldIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1802|1814|entityLiving|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1709|1717|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1727|1736|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1737|1752|onItemUseFinish|method|net.minecraft.item.Item|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1753|1762|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1770|1775|World|class|net.minecraft.world.World
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1785|1801|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1826|1838|entityLiving|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1850|1862|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1867|1874|worldIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|worldIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1875|1883|isRemote|field|net.minecraft.world.World|isRemote
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1893|1905|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1916|1928|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1930|1942|entityLiving|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1950|1957|worldIn|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|worldIn|1
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1958|1967|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1969|1981|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemAirBottle.java|1996|2000|posX|field|net.minecraft.entity.Entity|posX
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2009|2013|posY|field|net.minecraft.entity.Entity|posY
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2022|2026|posZ|field|net.minecraft.entity.Entity|posZ
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2028|2039|SoundEvents|class|net.minecraft.init.SoundEvents
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2040|2058|ENTITY_WITCH_DRINK|field|net.minecraft.init.SoundEvents|ENTITY_WITCH_DRINK
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2060|2073|SoundCategory|class|net.minecraft.util.SoundCategory
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2074|2081|PLAYERS|field|net.minecraft.util.SoundCategory|PLAYERS
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2114|2124|isCreative|method|net.minecraft.entity.player.EntityPlayer|isCreative|()Z
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2128|2133|stack|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2134|2140|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2155|2161|Loader|class|net.minecraftforge.fml.common.Loader
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2162|2173|isModLoaded|method|net.minecraftforge.fml.common.Loader|isModLoaded|(Ljava/lang/String;)Z
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2194|2207|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2208|2220|betterDiving|field|sora.holdyerbreath.init.ConfigHandler|betterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2221|2249|allowBetterDivingIntegration|field|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig|allowBetterDivingIntegration
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2261|2273|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2274|2287|setCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2296|2300|Math|class|java.lang.Math
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2301|2304|min|method|java.lang.Math|min|(II)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2305|2317|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2318|2331|getCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2342|2354|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2355|2364|getMaxAir|method|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2375|2388|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2389|2401|betterDiving|field|sora.holdyerbreath.init.ConfigHandler|betterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2402|2427|betterDivingAirPercentage|field|sora.holdyerbreath.init.ConfigHandler.BetterDivingConfig|betterDivingAirPercentage
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2433|2445|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2446|2455|getMaxAir|method|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2497|2503|setAir|method|net.minecraft.entity.Entity|setAir|(I)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2504|2508|Math|class|java.lang.Math
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2509|2512|min|method|java.lang.Math|min|(II)I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2520|2526|getAir|method|net.minecraft.entity.Entity|getAir|()I
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2536|2549|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2550|2568|restoredAirBubbles|field|sora.holdyerbreath.init.ConfigHandler|restoredAirBubbles
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2596|2609|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2610|2622|usesBottleUp|field|sora.holdyerbreath.init.ConfigHandler|usesBottleUp
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2638|2643|stack|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2644|2651|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2678|2687|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2688|2696|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2697|2713|EMPTY_AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|EMPTY_AIR_BOTTLE
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2744|2761|ItemHandlerHelper|class|net.minecraftforge.items.ItemHandlerHelper
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2762|2778|giveItemToPlayer|method|net.minecraftforge.items.ItemHandlerHelper|giveItemToPlayer|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2791|2800|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2801|2809|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2810|2826|EMPTY_AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|EMPTY_AIR_BOTTLE
+      @|sora\holdyerbreath\items\ItemAirBottle.java|2868|2873|stack|param|sora.holdyerbreath.items.ItemAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+   Method End: onItemUseFinish(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+Class End  : sora.holdyerbreath.items.ItemAirBottle
+endProcessing "sora\holdyerbreath\items\ItemAirBottle.java"
+
+startProcessing "sora\holdyerbreath\items\ItemEmptyAirBottle.java" md5: 26eb32d334c9d71eee9804827876567f
+@|sora\holdyerbreath\items\ItemEmptyAirBottle.java|8|32|sora.holdyerbreath.items|package|sora.holdyerbreath.items|(file)
+Class Start: sora.holdyerbreath.items.ItemEmptyAirBottle
+   @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|578|596|ItemEmptyAirBottle|class|sora.holdyerbreath.items.ItemEmptyAirBottle
+   @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|605|609|Item|class|net.minecraft.item.Item
+   Method Start: ItemEmptyAirBottle(Ljava/lang/String;)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|648|652|name|param|sora.holdyerbreath.items.ItemEmptyAirBottle|ItemEmptyAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|622|640|ItemEmptyAirBottle|method|sora.holdyerbreath.items.ItemEmptyAirBottle|ItemEmptyAirBottle|(Ljava/lang/String;)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|641|647|String|class|java.lang.String
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|677|692|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|697|713|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|714|727|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|728|733|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|735|739|name|param|sora.holdyerbreath.items.ItemEmptyAirBottle|ItemEmptyAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|752|770|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|771|775|name|param|sora.holdyerbreath.items.ItemEmptyAirBottle|ItemEmptyAirBottle|(Ljava/lang/String;)V|name|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|787|801|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|802|815|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|816|829|CREATIVE_TABS|field|sora.holdyerbreath.HoldYerBreath|CREATIVE_TABS
+   Method End: ItemEmptyAirBottle(Ljava/lang/String;)V
+   Method Start: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|890|895|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|840|848|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|862|879|getItemStackLimit|method|net.minecraft.item.Item|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|880|889|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|910|923|ConfigHandler|class|sora.holdyerbreath.init.ConfigHandler
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|924|936|maxStackSize|field|sora.holdyerbreath.init.ConfigHandler|maxStackSize
+   Method End: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+   Method Start: getItemUseAction(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1002|1007|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|getItemUseAction|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|946|954|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|964|974|EnumAction|class|net.minecraft.item.EnumAction
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|975|991|getItemUseAction|method|net.minecraft.item.Item|getItemUseAction|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|992|1001|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1022|1032|EnumAction|class|net.minecraft.item.EnumAction
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1033|1036|BOW|field|net.minecraft.item.EnumAction|BOW
+   Method End: getItemUseAction(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;
+   Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1100|1105|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1046|1054|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1068|1089|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1090|1099|ItemStack|class|net.minecraft.item.ItemStack
+   Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+   Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1197|1204|worldIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1219|1227|playerIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1238|1244|handIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1132|1140|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1150|1162|ActionResult|class|net.minecraft.util.ActionResult
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1163|1172|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1174|1190|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1191|1196|World|class|net.minecraft.world.World
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1206|1218|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1229|1237|EnumHand|class|net.minecraft.util.EnumHand
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1252|1261|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1270|1278|playerIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1279|1290|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1291|1297|handIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1308|1315|worldIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|worldIn|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1316|1324|isRemote|field|net.minecraft.world.World|isRemote
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1329|1337|playerIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1338|1356|isInsideOfMaterial|method|net.minecraft.entity.Entity|isInsideOfMaterial|(Lnet/minecraft/block/material/Material;)Z
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1357|1365|Material|class|net.minecraft.block.material.Material
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1366|1371|WATER|field|net.minecraft.block.material.Material|WATER
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1381|1389|playerIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|playerIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1390|1403|setActiveHand|method|net.minecraft.entity.EntityLivingBase|setActiveHand|(Lnet/minecraft/util/EnumHand;)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1404|1410|handIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|handIn|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1434|1446|ActionResult|class|net.minecraft.util.ActionResult
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1447|1456|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1458|1474|EnumActionResult|class|net.minecraft.util.EnumActionResult
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1475|1482|SUCCESS|field|net.minecraft.util.EnumActionResult|SUCCESS
+   Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Method Start: onItemUseFinish(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1553|1558|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1566|1573|worldIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|worldIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1592|1604|entityLiving|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1499|1507|Override|class|java.lang.Override
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1517|1526|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1527|1542|onItemUseFinish|method|net.minecraft.item.Item|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1543|1552|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1560|1565|World|class|net.minecraft.world.World
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1575|1591|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1615|1627|entityLiving|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1639|1651|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1660|1672|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1683|1695|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1697|1709|entityLiving|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|entityLiving|2
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1717|1724|worldIn|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|worldIn|1
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1725|1734|playSound|method|net.minecraft.world.World|playSound|(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1736|1748|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1763|1767|posX|field|net.minecraft.entity.Entity|posX
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1776|1780|posY|field|net.minecraft.entity.Entity|posY
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1789|1793|posZ|field|net.minecraft.entity.Entity|posZ
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1795|1806|SoundEvents|class|net.minecraft.init.SoundEvents
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1807|1823|ITEM_BUCKET_FILL|field|net.minecraft.init.SoundEvents|ITEM_BUCKET_FILL
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1825|1838|SoundCategory|class|net.minecraft.util.SoundCategory
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1839|1846|PLAYERS|field|net.minecraft.util.SoundCategory|PLAYERS
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1878|1888|isCreative|method|net.minecraft.entity.player.EntityPlayer|isCreative|()Z
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1891|1896|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1897|1903|shrink|method|net.minecraft.item.ItemStack|shrink|(I)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1917|1922|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1923|1930|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1954|1963|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1964|1972|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|1973|1983|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2015|2032|ItemHandlerHelper|class|net.minecraftforge.items.ItemHandlerHelper
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2033|2049|giveItemToPlayer|method|net.minecraftforge.items.ItemHandlerHelper|giveItemToPlayer|(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2062|2071|ItemStack|class|net.minecraft.item.ItemStack
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2072|2080|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2081|2091|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE
+      @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|2120|2125|stack|param|sora.holdyerbreath.items.ItemEmptyAirBottle|onItemUseFinish|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;|stack|0
+   Method End: onItemUseFinish(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;
+Class End  : sora.holdyerbreath.items.ItemEmptyAirBottle
+endProcessing "sora\holdyerbreath\items\ItemEmptyAirBottle.java"
+
+startProcessing "sora\holdyerbreath\proxy\ClientProxy.java" md5: 0be0120c262c5ad8b626fff71c4fdd6c
+Cache Hit!
+@|sora\holdyerbreath\proxy\ClientProxy.java|8|32|sora.holdyerbreath.proxy|package|sora.holdyerbreath.proxy|(file)
+Class Start: sora.holdyerbreath.proxy.ClientProxy
+   @|sora\holdyerbreath\proxy\ClientProxy.java|748|770|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|sora\holdyerbreath\proxy\ClientProxy.java|771|776|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|sora\holdyerbreath\proxy\ClientProxy.java|779|792|HoldYerBreath|class|sora.holdyerbreath.HoldYerBreath
+   @|sora\holdyerbreath\proxy\ClientProxy.java|793|798|MODID|field|sora.holdyerbreath.HoldYerBreath|MODID
+   @|sora\holdyerbreath\proxy\ClientProxy.java|813|824|ClientProxy|class|sora.holdyerbreath.proxy.ClientProxy
+   @|sora\holdyerbreath\proxy\ClientProxy.java|833|844|CommonProxy|class|sora.holdyerbreath.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|908|913|event|param|sora.holdyerbreath.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|851|859|Override|class|java.lang.Override
+      @|sora\holdyerbreath\proxy\ClientProxy.java|874|881|preInit|method|sora.holdyerbreath.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|882|907|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|sora\holdyerbreath\proxy\ClientProxy.java|926|933|preInit|method|sora.holdyerbreath.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|934|939|event|param|sora.holdyerbreath.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1001|1006|event|param|sora.holdyerbreath.proxy.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|950|958|Override|class|java.lang.Override
+      @|sora\holdyerbreath\proxy\ClientProxy.java|973|977|Init|method|sora.holdyerbreath.proxy.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|978|1000|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1019|1023|Init|method|sora.holdyerbreath.proxy.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1024|1029|event|param|sora.holdyerbreath.proxy.ClientProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1099|1104|event|param|sora.holdyerbreath.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1040|1048|Override|class|java.lang.Override
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1063|1071|postInit|method|sora.holdyerbreath.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1072|1098|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1117|1125|postInit|method|sora.holdyerbreath.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1126|1131|event|param|sora.holdyerbreath.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: rendModel(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1232|1237|event|param|sora.holdyerbreath.proxy.ClientProxy|rendModel|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1142|1150|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1151|1155|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1156|1162|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1167|1181|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1203|1212|rendModel|method|sora.holdyerbreath.proxy.ClientProxy|rendModel|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1213|1231|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1244|1252|regModel|method|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1253|1261|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1262|1272|AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|AIR_BOTTLE
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1279|1287|regModel|method|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1288|1296|ModItems|class|sora.holdyerbreath.init.ModItems
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1297|1313|EMPTY_AIR_BOTTLE|field|sora.holdyerbreath.init.ModItems|EMPTY_AIR_BOTTLE
+   Method End: rendModel(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Method Start: regModel(Lnet/minecraft/item/Item;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1357|1361|item|param|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1343|1351|regModel|method|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1352|1356|Item|class|net.minecraft.item.Item
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1368|1379|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1380|1410|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1411|1415|item|param|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1424|1445|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1446|1450|item|param|sora.holdyerbreath.proxy.ClientProxy|regModel|(Lnet/minecraft/item/Item;)V|item|0
+      @|sora\holdyerbreath\proxy\ClientProxy.java|1451|1466|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: regModel(Lnet/minecraft/item/Item;)V
+Class End  : sora.holdyerbreath.proxy.ClientProxy
+endProcessing "sora\holdyerbreath\proxy\ClientProxy.java"
+
+startProcessing "sora\holdyerbreath\proxy\CommonProxy.java" md5: 08e21611509e2c436c2817e08563f616
+Cache Hit!
+@|sora\holdyerbreath\proxy\CommonProxy.java|8|32|sora.holdyerbreath.proxy|package|sora.holdyerbreath.proxy|(file)
+Class Start: sora.holdyerbreath.proxy.CommonProxy
+   @|sora\holdyerbreath\proxy\CommonProxy.java|257|268|CommonProxy|class|sora.holdyerbreath.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|320|325|event|param|sora.holdyerbreath.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\CommonProxy.java|286|293|preInit|method|sora.holdyerbreath.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|294|319|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|376|381|event|param|sora.holdyerbreath.proxy.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\CommonProxy.java|348|352|Init|method|sora.holdyerbreath.proxy.CommonProxy|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|353|375|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|440|445|event|param|sora.holdyerbreath.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|sora\holdyerbreath\proxy\CommonProxy.java|404|412|postInit|method|sora.holdyerbreath.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|sora\holdyerbreath\proxy\CommonProxy.java|413|439|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : sora.holdyerbreath.proxy.CommonProxy
+endProcessing "sora\holdyerbreath\proxy\CommonProxy.java"
+

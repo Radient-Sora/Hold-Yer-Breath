@@ -1,0 +1,15 @@
+[
+{
+  "modid": "holdyerbreath",
+  "name": "Hold Yer Breath",
+  "description": "This mod lets you store air into special bottles then use them underwater for an extra breathe of air",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Radient_Sora"],
+  "credits": "Boolyman",
+  "logoFile": "",
+  "screenshots": []
+}
+]
