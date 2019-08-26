@@ -189,50 +189,51 @@ Class Start: sora.holdyerbreath.init.RegistryHandler
 Class End  : sora.holdyerbreath.init.RegistryHandler
 endProcessing "sora\holdyerbreath\init\RegistryHandler.java"
 
-startProcessing "sora\holdyerbreath\integration\BetterDiving.java" md5: 2db1158e2004ccbd6e875a930be87db9
+startProcessing "sora\holdyerbreath\integration\BetterDiving.java" md5: 01e2b7446fbe7f0830c2c0f6c17f8891
 Cache Hit!
 @|sora\holdyerbreath\integration\BetterDiving.java|8|38|sora.holdyerbreath.integration|package|sora.holdyerbreath.integration|(file)
 Class Start: sora.holdyerbreath.integration.BetterDiving
-   @|sora\holdyerbreath\integration\BetterDiving.java|229|241|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
+   @|sora\holdyerbreath\integration\BetterDiving.java|265|277|BetterDiving|class|sora.holdyerbreath.integration.BetterDiving
    Method Start: setCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;I)V
-      @|sora\holdyerbreath\integration\BetterDiving.java|293|299|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|305|314|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
-      @|sora\holdyerbreath\integration\BetterDiving.java|266|279|setCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V
-      @|sora\holdyerbreath\integration\BetterDiving.java|280|292|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|sora\holdyerbreath\integration\BetterDiving.java|321|338|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
-      @|sora\holdyerbreath\integration\BetterDiving.java|352|358|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|359|372|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
-      @|sora\holdyerbreath\integration\BetterDiving.java|373|397|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
-      @|sora\holdyerbreath\integration\BetterDiving.java|398|404|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
-      @|sora\holdyerbreath\integration\BetterDiving.java|428|441|setCurrentAir|method|meldexun.betterDiving.capability.IDivingAttributes|setCurrentAir|(I)V
-      @|sora\holdyerbreath\integration\BetterDiving.java|442|451|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
+      @|sora\holdyerbreath\integration\BetterDiving.java|329|335|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|341|350|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
+      @|sora\holdyerbreath\integration\BetterDiving.java|302|315|setCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V
+      @|sora\holdyerbreath\integration\BetterDiving.java|316|328|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|358|385|ICapabilityDivingAttributes|class|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|399|405|player|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|406|419|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|420|454|CapabilityDivingAttributesProvider|class|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|455|461|DIVING|field|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|485|498|setCurrentAir|method|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes|setCurrentAir|(I)V
+      @|sora\holdyerbreath\integration\BetterDiving.java|499|508|airAmount|param|sora.holdyerbreath.integration.BetterDiving|setCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;I)V|airAmount|1
    Method End: setCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;I)V
    Method Start: getCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;)I
-      @|sora\holdyerbreath\integration\BetterDiving.java|506|512|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|479|492|getCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
-      @|sora\holdyerbreath\integration\BetterDiving.java|493|505|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|sora\holdyerbreath\integration\BetterDiving.java|519|536|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
-      @|sora\holdyerbreath\integration\BetterDiving.java|550|556|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|557|570|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
-      @|sora\holdyerbreath\integration\BetterDiving.java|571|595|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
-      @|sora\holdyerbreath\integration\BetterDiving.java|596|602|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
-      @|sora\holdyerbreath\integration\BetterDiving.java|631|644|getCurrentAir|method|meldexun.betterDiving.capability.IDivingAttributes|getCurrentAir|()I
+      @|sora\holdyerbreath\integration\BetterDiving.java|563|569|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|536|549|getCurrentAir|method|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|550|562|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|577|604|ICapabilityDivingAttributes|class|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|618|624|player|param|sora.holdyerbreath.integration.BetterDiving|getCurrentAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|625|638|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|639|673|CapabilityDivingAttributesProvider|class|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|674|680|DIVING|field|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|711|724|getCurrentAir|method|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes|getCurrentAir|()I
    Method End: getCurrentAir(Lnet/minecraft/entity/player/EntityPlayer;)I
    Method Start: getMaxAir(Lnet/minecraft/entity/player/EntityPlayer;)I
-      @|sora\holdyerbreath\integration\BetterDiving.java|696|702|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|673|682|getMaxAir|method|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
-      @|sora\holdyerbreath\integration\BetterDiving.java|683|695|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|sora\holdyerbreath\integration\BetterDiving.java|709|726|IDivingAttributes|class|meldexun.betterDiving.capability.IDivingAttributes
-      @|sora\holdyerbreath\integration\BetterDiving.java|740|746|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
-      @|sora\holdyerbreath\integration\BetterDiving.java|747|760|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
-      @|sora\holdyerbreath\integration\BetterDiving.java|761|785|DivingAttributesProvider|class|meldexun.betterDiving.capability.DivingAttributesProvider
-      @|sora\holdyerbreath\integration\BetterDiving.java|786|792|DIVING|field|meldexun.betterDiving.capability.DivingAttributesProvider|DIVING
-      @|sora\holdyerbreath\integration\BetterDiving.java|823|832|getMaxAir|method|meldexun.betterDiving.capability.IDivingAttributes|getMaxAir|()I
+      @|sora\holdyerbreath\integration\BetterDiving.java|776|782|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|753|762|getMaxAir|method|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I
+      @|sora\holdyerbreath\integration\BetterDiving.java|763|775|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|sora\holdyerbreath\integration\BetterDiving.java|790|817|ICapabilityDivingAttributes|class|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes
+      @|sora\holdyerbreath\integration\BetterDiving.java|831|837|player|param|sora.holdyerbreath.integration.BetterDiving|getMaxAir|(Lnet/minecraft/entity/player/EntityPlayer;)I|player|0
+      @|sora\holdyerbreath\integration\BetterDiving.java|838|851|getCapability|method|net.minecraftforge.common.capabilities.ICapabilityProvider|getCapability|(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;
+      @|sora\holdyerbreath\integration\BetterDiving.java|852|886|CapabilityDivingAttributesProvider|class|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider
+      @|sora\holdyerbreath\integration\BetterDiving.java|887|893|DIVING|field|meldexun.better_diving.capability.diving.CapabilityDivingAttributesProvider|DIVING
+      @|sora\holdyerbreath\integration\BetterDiving.java|924|933|getMaxAir|method|meldexun.better_diving.capability.diving.ICapabilityDivingAttributes|getMaxAir|()I
    Method End: getMaxAir(Lnet/minecraft/entity/player/EntityPlayer;)I
 Class End  : sora.holdyerbreath.integration.BetterDiving
 endProcessing "sora\holdyerbreath\integration\BetterDiving.java"
 
 startProcessing "sora\holdyerbreath\items\ItemAirBottle.java" md5: b03f2a87c9e9dd4a26c685367667226f
+Cache Hit!
 @|sora\holdyerbreath\items\ItemAirBottle.java|8|32|sora.holdyerbreath.items|package|sora.holdyerbreath.items|(file)
 Class Start: sora.holdyerbreath.items.ItemAirBottle
    @|sora\holdyerbreath\items\ItemAirBottle.java|675|688|ItemAirBottle|class|sora.holdyerbreath.items.ItemAirBottle
@@ -380,6 +381,7 @@ Class End  : sora.holdyerbreath.items.ItemAirBottle
 endProcessing "sora\holdyerbreath\items\ItemAirBottle.java"
 
 startProcessing "sora\holdyerbreath\items\ItemEmptyAirBottle.java" md5: 26eb32d334c9d71eee9804827876567f
+Cache Hit!
 @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|8|32|sora.holdyerbreath.items|package|sora.holdyerbreath.items|(file)
 Class Start: sora.holdyerbreath.items.ItemEmptyAirBottle
    @|sora\holdyerbreath\items\ItemEmptyAirBottle.java|578|596|ItemEmptyAirBottle|class|sora.holdyerbreath.items.ItemEmptyAirBottle

@@ -87,6 +87,7 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
+key_Dive down:46
 soundCategory_master:1.0
 soundCategory_music:0.12676056
 soundCategory_record:1.0

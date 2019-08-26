@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the nessasary things for Forge to be setup.
 
 
-version = "1.12.2-1.1.2"
+version = "1.12.2-1.1.5"
 group= "sora.holdyerbreath" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "holdyerbreath"
 
@@ -48,7 +48,7 @@ repositories {
 
 dependencies {
     deobfCompile "mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.23-16"
-    compile files("libs/BetterDiving-1.12.2-1.3.63-deobf.jar")
+    compile files("libs/BetterDiving-1.12.2-1.3.91-deobf.jar")
 	
 }
 
