@@ -4891,3 +4891,6 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [20:01:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
 [20:01:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
 [20:01:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[20:08:38] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 388807ms behind, skipping 7776 tick(s)
+[20:08:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:08:38] [Client Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
