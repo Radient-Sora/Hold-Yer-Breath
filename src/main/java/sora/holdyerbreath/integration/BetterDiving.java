@@ -7,20 +7,20 @@ import net.minecraft.entity.player.EntityPlayer;
 public class BetterDiving {
 
   public static void setCurrentAir(EntityPlayer player, int airAmount) {
-    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING, null);
+    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING_ATTRIBUTES, null);
     assert attributes != null;
-    attributes.setCurrentAir(airAmount);
+    attributes.setOxygen(airAmount);
   }
 
   public static int getCurrentAir(EntityPlayer player) {
-    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING, null);
+    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING_ATTRIBUTES, null);
     assert attributes != null;
-    return attributes.getCurrentAir();
+    return attributes.getOxygen();
   }
 
   public static int getMaxAir(EntityPlayer player) {
-    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING, null);
+    ICapabilityDivingAttributes attributes = player.getCapability(CapabilityDivingAttributesProvider.DIVING_ATTRIBUTES, null);
     assert attributes != null;
-    return attributes.getMaxAir();
+    return attributes.getOxygenCapacity();
   }
 }
