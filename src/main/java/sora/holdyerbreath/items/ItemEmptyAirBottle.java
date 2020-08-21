@@ -20,7 +20,7 @@ public class ItemEmptyAirBottle extends Item {
 
         this.setRegistryName(new ResourceLocation(HoldYerBreath.MOD_ID, name));
         this.setUnlocalizedName(name);
-        this.setCreativeTab(HoldYerBreath.CREATIVE_TABS);
+        this.setCreativeTab(HoldYerBreath.CREATIVE_TAB);
     }
 
     @Override
@@ -44,21 +44,26 @@ public class ItemEmptyAirBottle extends Item {
         if (!worldIn.isRemote && !playerIn.isInsideOfMaterial(Material.WATER)) {
             playerIn.setActiveHand(handIn);
         }
-        return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, stack);
+        return new ActionResult<>(EnumActionResult.SUCCESS, stack);
     }
 
     @Override
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving) {
         if (entityLiving instanceof EntityPlayer) {
             EntityPlayer player = (EntityPlayer) entityLiving;
-            worldIn.playSound((EntityPlayer) null, player.posX, player.posY, player.posZ, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.PLAYERS, 1.0F, 1.0F);
-            if (!player.isCreative()) stack.shrink(1);
+            worldIn.playSound(null, player.posX, player.posY, player.posZ, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.PLAYERS, 1.0F, 1.0F);
+
+            if (!player.isCreative()) {
+                stack.shrink(1);
+            }
+
             if (stack.isEmpty()) {
                 return new ItemStack(ModItems.AIR_BOTTLE);
             } else {
                 ItemHandlerHelper.giveItemToPlayer(player, new ItemStack(ModItems.AIR_BOTTLE));
             }
         }
+
         return stack;
     }
 }

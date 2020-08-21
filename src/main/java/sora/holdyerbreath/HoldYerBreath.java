@@ -14,7 +14,7 @@ public class HoldYerBreath {
     @Mod.Instance
     public static HoldYerBreath INSTANCE;
 
-    public static final CreativeTabs CREATIVE_TABS = new CreativeTabs(HoldYerBreath.MOD_ID) {
+    public static final CreativeTabs CREATIVE_TAB = new CreativeTabs(HoldYerBreath.MOD_ID) {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModItems.AIR_BOTTLE);
