@@ -17,8 +17,8 @@ public class ModelEventHandler {
     @SuppressWarnings("unused")
     @SubscribeEvent
     public static void onModelRegistry(ModelRegistryEvent event) {
-        registerModel(ModItems.AIR_BOTTLE);
-        registerModel(ModItems.EMPTY_AIR_BOTTLE);
+        registerModel(ModItems.REINFORCED_AIR_BOTTLE);
+        registerModel(ModItems.LARGE_REINFORCED_AIR_BOTTLE);
     }
 
     private static void registerModel(Item item) {

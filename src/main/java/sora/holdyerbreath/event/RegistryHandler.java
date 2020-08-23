@@ -13,8 +13,8 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-                ModItems.AIR_BOTTLE,
-                ModItems.EMPTY_AIR_BOTTLE
+                ModItems.REINFORCED_AIR_BOTTLE,
+                ModItems.LARGE_REINFORCED_AIR_BOTTLE
         );
     }
 }
