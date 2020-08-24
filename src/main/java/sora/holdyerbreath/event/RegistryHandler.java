@@ -14,6 +14,7 @@ public class RegistryHandler {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
                 ModItems.REINFORCED_AIR_BOTTLE,
+                ModItems.MEDIUM_REINFORCED_AIR_BOTTLE,
                 ModItems.LARGE_REINFORCED_AIR_BOTTLE
         );
     }

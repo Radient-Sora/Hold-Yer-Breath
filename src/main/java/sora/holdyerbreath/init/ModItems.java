@@ -5,12 +5,12 @@ import sora.holdyerbreath.items.ItemReinforcedBottle;
 
 public class ModItems {
     public static Item REINFORCED_AIR_BOTTLE = new ItemReinforcedBottle(
-            "reinforced_air_bottle", 1
+            "reinforced_air_bottle", 1, ConfigHandler.restoredAirBubbles
     );
     public static Item MEDIUM_REINFORCED_AIR_BOTTLE = new ItemReinforcedBottle(
-            "medium_reinforced_air_bottle", 2
+            "medium_reinforced_air_bottle", 2, ConfigHandler.restoredAirBubbles
     );
     public static Item LARGE_REINFORCED_AIR_BOTTLE = new ItemReinforcedBottle(
-            "large_reinforced_air_bottle", 4
+            "large_reinforced_air_bottle", 4, ConfigHandler.restoredAirBubbles
     );
 }

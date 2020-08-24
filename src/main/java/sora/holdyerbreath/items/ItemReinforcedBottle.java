@@ -27,8 +27,9 @@ public class ItemReinforcedBottle extends Item {
     private static final String FLUID = "fluid";
 
     private int uses;
+    private int regenerateAmount;
 
-    public ItemReinforcedBottle(String name, int uses) {
+    public ItemReinforcedBottle(String name, int uses, int regenerateAmount) {
         super();
 
         this.setRegistryName(new ResourceLocation(HoldYerBreath.MOD_ID, name));
@@ -36,6 +37,7 @@ public class ItemReinforcedBottle extends Item {
         this.setCreativeTab(HoldYerBreath.CREATIVE_TAB);
 
         this.uses = uses;
+        this.regenerateAmount = regenerateAmount;
     }
 
     private static float getOrSetFluid(ItemStack itemStack, float amount) {
@@ -100,9 +102,9 @@ public class ItemReinforcedBottle extends Item {
     @Override
     public int getMaxItemUseDuration(@Nonnull ItemStack stack) {
         if (isEmpty(stack)) {
-            return 20 * this.uses;
+            return 20 * (this.regenerateAmount - this.uses);
         } else {
-            return 16 * this.uses;
+            return 16 * (this.regenerateAmount - this.uses);
         }
     }
 
@@ -111,7 +113,7 @@ public class ItemReinforcedBottle extends Item {
         tooltip.addAll(Lists.newArrayList(
                 String.format("Restores %d per use", ConfigHandler.restoredAirBubbles),
                 String.format("Can be used %d times", this.uses),
-                String.format("Takes %d milliseconds to fill and %d to drink", 20 * this.uses, 16 * this.uses),
+                String.format("Takes %d ticks to fill, and %d ticks to drink", 20 * this.uses, 16 * this.uses),
                 String.format("Air: %.2f", getOrSetFluid(stack, 0f))
         ));
     }
@@ -165,7 +167,7 @@ public class ItemReinforcedBottle extends Item {
                     setFluid(stack, this.uses);
                 }
             } else {
-                player.setAir(Math.min(player.getAir() + 30 * ConfigHandler.restoredAirBubbles, 300));
+                player.setAir(Math.min(player.getAir() + 30 * this.regenerateAmount, 300));
 
                 if (ConfigHandler.usesBottleUp && !player.isCreative()) {
                     setFluid(stack, Math.max(0, getFluid(stack) - 1));

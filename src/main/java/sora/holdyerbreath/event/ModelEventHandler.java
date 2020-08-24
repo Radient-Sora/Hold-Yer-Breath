@@ -18,6 +18,7 @@ public class ModelEventHandler {
     @SubscribeEvent
     public static void onModelRegistry(ModelRegistryEvent event) {
         registerModel(ModItems.REINFORCED_AIR_BOTTLE);
+        registerModel(ModItems.MEDIUM_REINFORCED_AIR_BOTTLE);
         registerModel(ModItems.LARGE_REINFORCED_AIR_BOTTLE);
     }
 
