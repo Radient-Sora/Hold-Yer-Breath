@@ -40,14 +40,18 @@ public class ItemReinforcedBottle extends Item {
         this.setUnlocalizedName(name);
         this.setCreativeTab(HoldYerBreath.CREATIVE_TAB);
 
+        // This adds an override which allows us to change the model at runtime
         this.addPropertyOverride(
                 new ResourceLocation(HoldYerBreath.MOD_ID, FLUID),
                 (stack, worldIn, entityIn) -> {
                     NBTTagCompound compound = stack.getSubCompound(HoldYerBreath.MOD_ID);
 
+                    // This checks the fluid level
                     if (compound == null) {
                         return 0.0F;
                     } else {
+                        // If there is fluid, return's 1
+                        // Which the models use as a predicate
                         return compound.getFloat(FLUID) > 0f ? 1f : 0f;
                     }
                 }

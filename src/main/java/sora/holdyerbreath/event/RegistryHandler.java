@@ -9,7 +9,6 @@ import sora.holdyerbreath.init.ModItems;
 
 @Mod.EventBusSubscriber(modid = HoldYerBreath.MOD_ID)
 public class RegistryHandler {
-    @SuppressWarnings("unused")
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(

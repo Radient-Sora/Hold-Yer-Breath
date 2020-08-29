@@ -1,6 +1,6 @@
 {
   "type": "forge:ore_shaped",
-  "pattern": ["GBG", " G "],
+  "pattern": [" G ","GBG", " G "],
   "key": {
     "G": {
       "type": "forge:ore_dict",
@@ -11,6 +11,6 @@
     }
   },
   "result": {
-    "item": "holdyerbreath:empty_air_bottle"
+    "item": "holdyerbreath:medium_reinforced_bottle"
   }
 }
