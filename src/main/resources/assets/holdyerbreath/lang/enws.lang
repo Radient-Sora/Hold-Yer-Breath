@@ -1,0 +1,10 @@
+#enws lang file
+
+itemGroup.holdyerbreath=Hold Thy Breath
+
+#Items
+item.small_reinforced_bottle.name=Bawbling Reinforc'd Air Bombard
+item.medium_reinforced_bottle.name=Medium Reinforc'd Air Bombard
+item.large_reinforced_bottle.name=Large Reinforc'd Air Bombard
+
+# Credit: https://lingojam.com/shakespearean

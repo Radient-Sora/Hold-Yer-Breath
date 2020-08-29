@@ -141,6 +141,8 @@ public class ItemReinforcedBottle extends Item {
         }
     }
 
+    // If this is pointed out as an issue, I'll look into doing it differently. Until then...
+    // Eat your heard out, server sync
     @Override
     public int getMaxItemUseDuration(
             @Nonnull ItemStack stack
