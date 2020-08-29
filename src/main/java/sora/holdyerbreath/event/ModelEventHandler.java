@@ -11,10 +11,8 @@ import sora.holdyerbreath.init.ModItems;
 
 import java.util.Objects;
 
-@SuppressWarnings("unused")
 @Mod.EventBusSubscriber(modid = HoldYerBreath.MOD_ID)
 public class ModelEventHandler {
-    @SuppressWarnings("unused")
     @SubscribeEvent
     public static void onModelRegistry(ModelRegistryEvent event) {
         registerModel(ModItems.SMALL_REINFORCED_AIR_BOTTLE);

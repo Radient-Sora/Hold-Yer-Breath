@@ -18,7 +18,6 @@ public class ConfigHandler {
 
     @Mod.EventBusSubscriber(modid = HoldYerBreath.MOD_ID)
     public static class ReloadConfig {
-        @SuppressWarnings("unused")
         @SubscribeEvent
         public static void onConfigChanged(ConfigChangedEvent event) {
             if (event.getModID().equals(HoldYerBreath.MOD_ID)) {
