@@ -17,7 +17,7 @@ public class HoldYerBreath {
     public static final CreativeTabs CREATIVE_TAB = new CreativeTabs(HoldYerBreath.MOD_ID) {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModItems.REINFORCED_AIR_BOTTLE);
+            return new ItemStack(ModItems.SMALL_REINFORCED_AIR_BOTTLE);
         }
     };
 }

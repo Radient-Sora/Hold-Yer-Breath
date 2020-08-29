@@ -26,21 +26,42 @@ import java.util.List;
 public class ItemReinforcedBottle extends Item {
     private static final String FLUID = "fluid";
 
-    private int uses;
-    private int regenerateAmount;
+    private final int uses;
+    private final int regenerateAmount;
 
-    public ItemReinforcedBottle(String name, int uses, int regenerateAmount) {
+    public ItemReinforcedBottle(
+            String name,
+            int uses,
+            int regenerateAmount
+    ) {
         super();
 
         this.setRegistryName(new ResourceLocation(HoldYerBreath.MOD_ID, name));
         this.setUnlocalizedName(name);
         this.setCreativeTab(HoldYerBreath.CREATIVE_TAB);
 
+        this.addPropertyOverride(
+                new ResourceLocation(HoldYerBreath.MOD_ID, FLUID),
+                (stack, worldIn, entityIn) -> {
+                    NBTTagCompound compound = stack.getSubCompound(HoldYerBreath.MOD_ID);
+
+                    if (compound == null) {
+                        return 0.0F;
+                    } else {
+                        return compound.getFloat(FLUID) > 0f ? 1f : 0f;
+                    }
+                }
+        );
+
         this.uses = uses;
         this.regenerateAmount = regenerateAmount;
     }
 
-    private static float getOrSetFluid(ItemStack itemStack, float amount) {
+    @SuppressWarnings("SameParameterValue")
+    private static float getOrSetFluid(
+            ItemStack itemStack,
+            float amount
+    ) {
         NBTTagCompound compound = itemStack.getOrCreateSubCompound(HoldYerBreath.MOD_ID);
         if (!compound.hasKey(FLUID)) {
             compound.setFloat(FLUID, amount);
@@ -48,25 +69,36 @@ public class ItemReinforcedBottle extends Item {
         return compound.getFloat(FLUID);
     }
 
-    private static void setFluid(ItemStack itemStack, float amount) {
+    private static void setFluid(
+            ItemStack itemStack,
+            float amount
+    ) {
         itemStack.getOrCreateSubCompound(HoldYerBreath.MOD_ID).setFloat(FLUID, amount);
     }
 
-    private static float getFluid(ItemStack itemStack) {
+    private static float getFluid(
+            ItemStack itemStack
+    ) {
         return itemStack.getOrCreateSubCompound(HoldYerBreath.MOD_ID).getFloat(FLUID);
     }
 
-    private static boolean isEmpty(ItemStack itemStack) {
+    private static boolean isEmpty(
+            ItemStack itemStack
+    ) {
         return getOrSetFluid(itemStack, 0f) <= 0f;
     }
 
-    private static boolean isLessThanFull(ItemStack itemStack) {
+    private static boolean isLessThanFull(
+            ItemStack itemStack
+    ) {
         float amount = getOrSetFluid(itemStack, 0f);
         return amount >= 0f && amount < 1f;
     }
 
     @Override
-    public int getItemStackLimit(ItemStack stack) {
+    public int getItemStackLimit(
+            @Nonnull ItemStack stack
+    ) {
         return 1;
     }
 
@@ -76,12 +108,16 @@ public class ItemReinforcedBottle extends Item {
     }
 
     @Override
-    public boolean showDurabilityBar(ItemStack stack) {
+    public boolean showDurabilityBar(
+            @Nonnull ItemStack stack
+    ) {
         return true;
     }
 
     @Override
-    public double getDurabilityForDisplay(ItemStack stack) {
+    public double getDurabilityForDisplay(
+            ItemStack stack
+    ) {
         if (stack.getSubCompound(HoldYerBreath.MOD_ID) != null) {
             return (this.uses - getFluid(stack)) / this.uses;
         } else {
@@ -91,7 +127,9 @@ public class ItemReinforcedBottle extends Item {
 
     @Nonnull
     @Override
-    public EnumAction getItemUseAction(@Nonnull ItemStack stack) {
+    public EnumAction getItemUseAction(
+            @Nonnull ItemStack stack
+    ) {
         if (isEmpty(stack)) {
             return EnumAction.BOW;
         } else {
@@ -100,16 +138,23 @@ public class ItemReinforcedBottle extends Item {
     }
 
     @Override
-    public int getMaxItemUseDuration(@Nonnull ItemStack stack) {
+    public int getMaxItemUseDuration(
+            @Nonnull ItemStack stack
+    ) {
         if (isEmpty(stack)) {
-            return 20 * (this.regenerateAmount - this.uses);
+            return 20 * this.uses;
         } else {
-            return 16 * (this.regenerateAmount - this.uses);
+            return 16 * this.uses;
         }
     }
 
     @Override
-    public void addInformation(@Nonnull ItemStack stack, @Nullable World worldIn, List<String> tooltip, @Nonnull ITooltipFlag flagIn) {
+    public void addInformation(
+            @Nonnull ItemStack stack,
+            @Nullable World worldIn,
+            List<String> tooltip,
+            @Nonnull ITooltipFlag flagIn
+    ) {
         tooltip.addAll(Lists.newArrayList(
                 String.format("Restores %d per use", ConfigHandler.restoredAirBubbles),
                 String.format("Can be used %d times", this.uses),
@@ -120,7 +165,11 @@ public class ItemReinforcedBottle extends Item {
 
     @Nonnull
     @Override
-    public ActionResult<ItemStack> onItemRightClick(@Nonnull World worldIn, EntityPlayer playerIn, @Nonnull EnumHand handIn) {
+    public ActionResult<ItemStack> onItemRightClick(
+            @Nonnull World worldIn,
+            EntityPlayer playerIn,
+            @Nonnull EnumHand handIn
+    ) {
         ItemStack stack = playerIn.getHeldItem(handIn);
 
         if (isLessThanFull(playerIn.getHeldItem(handIn))) {
@@ -146,7 +195,11 @@ public class ItemReinforcedBottle extends Item {
 
     @Nonnull
     @Override
-    public ItemStack onItemUseFinish(@Nonnull ItemStack stack, @Nonnull World worldIn, EntityLivingBase entityLiving) {
+    public ItemStack onItemUseFinish(
+            @Nonnull ItemStack stack,
+            @Nonnull World worldIn,
+            @Nonnull EntityLivingBase entityLiving
+    ) {
         if (entityLiving instanceof EntityPlayer) {
             EntityPlayer player = (EntityPlayer) entityLiving;
 
