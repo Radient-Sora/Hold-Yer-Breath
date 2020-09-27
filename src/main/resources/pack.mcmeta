@@ -1,7 +1,6 @@
 {
-    "pack":
-    {
-        "description": "Baubley Heart Canisters",
-        "pack_format": 3
-    }
+  "pack": {
+    "description": "Hold Yer Breath",
+    "pack_format": 3
+  }
 }

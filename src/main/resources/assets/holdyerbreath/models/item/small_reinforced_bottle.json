@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "holdyerbreath:items/empty_small_reinforced_bottle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "holdyerbreath:fluid": 1
+      },
+      "model": "holdyerbreath:item/full/full_small_reinforced_bottle"
+    }
+  ]
+}

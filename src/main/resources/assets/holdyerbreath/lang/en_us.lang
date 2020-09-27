@@ -3,5 +3,6 @@
 itemGroup.holdyerbreath=Hold Yer Breath
 
 #Items
-item.air_bottle.name=Reinforced Air Bottle
-item.empty_air_bottle.name=Empty Reinforced Air Bottle
+item.small_reinforced_bottle.name=Small Reinforced Air Bottle
+item.medium_reinforced_bottle.name=Medium Reinforced Air Bottle
+item.large_reinforced_bottle.name=Large Reinforced Air Bottle
