@@ -1,48 +1,29 @@
 package sora.holdyerbreath.init;
 
-import net.minecraftforge.common.config.Config;
-import net.minecraftforge.common.config.ConfigManager;
-import net.minecraftforge.fml.client.event.ConfigChangedEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import sora.holdyerbreath.HoldYerBreath;
+import net.minecraftforge.common.ForgeConfigSpec;
 
-@Config(modid = HoldYerBreath.MODID)
 public class ConfigHandler {
 
-  @Config.Name("Better Diving")
-  public static final BetterDivingConfig betterDiving = new BetterDivingConfig();
+  public static class General{
+    public final ForgeConfigSpec.ConfigValue<Integer> maxStackSize;
+    public final ForgeConfigSpec.ConfigValue<Boolean> usesBottleUp;
+    public final ForgeConfigSpec.ConfigValue<Integer> restoredAirBubbles;
 
-  @Config.RangeInt(min = 1, max = 64)
-  @Config.Comment("Bottle Stacksize")
-  public static int maxStackSize = 64;
-
-  @Config.Comment("Does the bottle get used up after use")
-  public static boolean usesBottleUp = false;
-
-  @Config.RangeInt(min = 1, max = 10)
-  @Config.Comment("How many bubbles of air's are restored per use")
-  public static int restoredAirBubbles = 5;
-
-  public static class BetterDivingConfig{
-    @Config.Comment("Allow Better Diving Integration")
-    public  boolean allowBetterDivingIntegration = true;
-
-    @Config.RangeInt(min = 1, max = 100)
-    @Config.Comment("Better Diving Air Percentage")
-    public  int betterDivingAirPercentage = 20;
-  }
-
-
-
-  @Mod.EventBusSubscriber(modid = HoldYerBreath.MODID)
-  public static class ReloadConfig{
-    @SubscribeEvent
-    public static void onConfigChanged(ConfigChangedEvent event){
-      if(event.getModID().equals(HoldYerBreath.MODID)){
-        ConfigManager.sync(HoldYerBreath.MODID, Config.Type.INSTANCE);
-      }
+    General(ForgeConfigSpec.Builder builder){
+      builder.push("General");
+      maxStackSize = builder
+          .comment("Bottle Stacksize")
+          .define("maxStackSize", 64);
+      usesBottleUp = builder
+          .comment("Does the bottle get used up after use")
+          .define("usesBottleUp",false);
+      restoredAirBubbles = builder
+          .comment("How many bubbles of air's are restored per use")
+          .define("restoredAirBubbles", 5);
+      builder.pop();
     }
   }
-
+  private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
+  public static final General general = new General(BUILDER);
+  public static final ForgeConfigSpec configSpec = BUILDER.build();
 }

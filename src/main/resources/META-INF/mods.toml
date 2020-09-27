@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+credits="Traverse_Joe"
+authors="Traverse_Joe"
+[[mods]]
+    modId="holdyerbreath"
+    version="${version}"
+    displayName="Hold Yer Breath" #mandatory
+    description='''
+Hold Yer Breathe
+Take that precious air you breathe with you while you explore the depths
+'''
+
+[[dependencies.rockcandy]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+side="BOTH"

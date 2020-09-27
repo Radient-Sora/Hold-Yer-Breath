@@ -1,45 +1,33 @@
 package sora.holdyerbreath;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import sora.holdyerbreath.init.ModItems;
+import net.minecraftforge.fml.config.ModConfig;
+import sora.holdyerbreath.init.ConfigHandler;
+import sora.holdyerbreath.proxy.ClientProxy;
 import sora.holdyerbreath.proxy.CommonProxy;
+import sora.holdyerbreath.proxy.IProxy;
 
-@Mod(modid = HoldYerBreath.MODID , name = HoldYerBreath.MODNAME)
+@Mod(HoldYerBreath.MODID)
 public class HoldYerBreath {
 
+  public HoldYerBreath instance;
+  private static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new CommonProxy());
   public static final String MODID = "holdyerbreath";
-  public static final String MODNAME = "Hold Yer Breath";
-  public static final String CLIENTPROXY = "sora.holdyerbreath.proxy.ClientProxy";
-  public static final String COMMONPROXY = "sora.holdyerbreath.proxy.CommonProxy";
 
-  @Mod.Instance
-  public static HoldYerBreath INSTANCE;
-
-  @SidedProxy(clientSide = HoldYerBreath.CLIENTPROXY, serverSide = HoldYerBreath.COMMONPROXY)
-  public static CommonProxy proxy;
-
-  public static void preInit(FMLPreInitializationEvent event) {
-    proxy.preInit(event);
+  public HoldYerBreath(){
+    ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, ConfigHandler.configSpec);
+    MinecraftForge.EVENT_BUS.register(this);
   }
 
-  public static void Init(FMLInitializationEvent event) {
-    proxy.Init(event);
+  public HoldYerBreath getInstance(){
+    return instance;
   }
 
-  public static void postInit(FMLPostInitializationEvent event) {
-    proxy.postInit(event);
+  public static IProxy getProxy(){
+    return proxy;
   }
 
-  public static final CreativeTabs CREATIVE_TABS = new CreativeTabs(HoldYerBreath.MODID) {
-    @Override
-    public ItemStack getTabIconItem() {
-      return new ItemStack(ModItems.AIR_BOTTLE);
-    }
-  };
 }

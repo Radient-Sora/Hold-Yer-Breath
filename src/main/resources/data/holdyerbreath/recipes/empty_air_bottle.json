@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GBG", " G "],
+  "key":{
+    "G":{
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result":{
+    "item": "holdyerbreath:empty_air_bottle",
+    "count": 1
+  }
+}
